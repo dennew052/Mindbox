@@ -1,5 +1,4 @@
 # Mindbox
-[Contribution guidelines for this project](docs/CONTRIBUTING.md)
 ## Задание 1:
 Напишите на C# или Python библиотеку для поставки внешним клиентам, которая умеет вычислять площадь круга по радиусу и треугольника по трем сторонам. Дополнительно к работоспособности оценим:
 - Юнит-тесты
@@ -8,14 +7,14 @@
 - Проверку на то, является ли треугольник прямоугольным
 ---
 1. Файл с набором функций:\
-[Contribution1 guidelines for this project](1docs/CONTRIBUTING.md)
+[myfunctions.py](calculating_areas/myfunctions.py)
 
 2. Юнит-тесты: \
-[Contribution1 guidelines for this project](1docs/CONTRIBUTING.md)
+[test_myfunctions.py](calculating_areas/tests/test_myfunctions.py)
 
 3. Чтобы добавить новую фигуру, например квадрат, нужно:
 
-   3.1 Открыть файл [Contribution1 guidelines for this project](1docs/CONTRIBUTING.md)
+   3.1 Открыть файл [myfunctions.py](calculating_areas/myfunctions.py)
 
    3.2 В функции start() на 64 строке добавить подсказку:
    ```
@@ -40,5 +39,5 @@
 В датафреймах (pyspark.sql.DataFrame) заданы продукты, категории и связь между ними. Одному продукту может соответствовать много категорий, в одной категории может быть много продуктов. Напишите метод с помощью PySpark, который вернет все продукты с их категориями (датафрейм с набором всех пар «Имя продукта – Имя категории»). В результирующем датафрейме должны также присутствовать продукты, у которых нет категорий
 ___
 1. Файл с PySpark DataFrame:\
-[Contribution1 guidelines for this project](1docs/CONTRIBUTING.md)
+[pyspark_dataframe.py](pyspark_dataframe/pyspark_dataframe.py)
 
